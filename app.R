@@ -16,7 +16,7 @@ library(tidyr)
 require(leaflet)
 
 # --- 2. Autenticación y Lectura de Datos de Google Sheets ---
-gs4_auth() 
+#gs4_auth() 
 
 google_sheet_url <- "https://docs.google.com/spreadsheets/d/1POnu5X-4Pi0Mgf_FVMtT_xzzFgCekTKaDQNDvm7kZCc/edit?usp=sharing"
 
