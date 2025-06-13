@@ -15,7 +15,7 @@ library(DT)
 library(tidyr) 
 
 # --- 2. Autenticación y Lectura de Datos de Google Sheets ---
- #gs4_auth() 
+#gs4_auth() 
 
 google_sheet_url <- "https://docs.google.com/spreadsheets/d/1POnu5X-4Pi0Mgf_FVMtT_xzzFgCekTKaDQNDvm7kZCc/edit?usp=sharing"
 
@@ -42,10 +42,10 @@ mapa <- mapa_data_raw %>%
 # --- 4. Definición de la Interfaz de Usuario (UI) ---
 ui <- fluidPage(
   
-
+  
   titlePanel("Mapa Interactivo de Centros Educativos"),
   
-
+  
   
   fluidRow(
     column(width = 2,
@@ -74,7 +74,7 @@ ui <- fluidPage(
            a(img(src = "https://media.licdn.com/dms/image/v2/C560BAQE93z4FbxjLCg/company-logo_200_200/company-logo_200_200/0/1630617827310/eurolatina_logo?e=1755129600&v=beta&t=EDbY6wBnBUVsxh1Ch_A252TjB29yW9GpEjpUCn-d-rE", class = "custom-logo",style="margin-top: 0px; padding-center:36px;padding-bottom:5px", height = 50)),
            
            
-      
+           
            
            helpText("Los filtros de Distrito y Clúster se actualizan según la selección.")
     ),
@@ -83,7 +83,7 @@ ui <- fluidPage(
     )
   ),
   
-
+  
   hr(),
   
   fluidRow(
